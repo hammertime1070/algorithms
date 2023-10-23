@@ -72,7 +72,7 @@ class Tree {
             }
         }
     }
-    delete(value) {
+    delete(value) {vh
         let currentNode = this.root
         let parentNode = null
         if (currentNode.value === value) {
